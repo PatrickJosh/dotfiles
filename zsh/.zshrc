@@ -109,14 +109,25 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+### oh my zsh configs
+# zsh-autocomplete
+# Currently not activated, therefore commented out.
+
 # zstyle ':autocomplete:tab:*' insert-unambiguous yes
 # zstyle ':autocomplete:tab:*' widget-style menu-select
+
+# zsh-autosuggest
 
 ZSH_AUTOSUGGEST_USE_ASYNC=true
 ZSH_AUTOSUGGEST_STRATEGY="match_prev_cmd"
 bindkey '^ ' autosuggest-accept
 
+### Other configs
+# thefuck
+
 eval $(thefuck --alias)
+
+### End
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
