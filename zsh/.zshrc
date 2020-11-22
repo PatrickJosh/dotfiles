@@ -29,7 +29,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to automatically update without prompting.
-# DISABLE_UPDATE_PROMPT="true"
+DISABLE_UPDATE_PROMPT="true"
+ZSH_CUSTOM_AUTOUPDATE_QUIET="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
@@ -77,6 +78,8 @@ plugins=(git
 	gitignore
 	thefuck
 	zsh-autosuggestions
+	#zsh-autocomplete
+	autoupdate
 )
 
 source $ZSH/oh-my-zsh.sh
