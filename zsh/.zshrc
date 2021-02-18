@@ -75,10 +75,11 @@ plugins=(git
 	tmux
 	zsh-syntax-highlighting
 	history
+	fzf
 	gitignore
 	thefuck
 	zsh-autosuggestions
-	#zsh-autocomplete
+	# zsh-autocomplete
 	autoupdate
 )
 
