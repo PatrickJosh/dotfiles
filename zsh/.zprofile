@@ -1,4 +1,3 @@
 # .zprofile
 
-path=("$HOME/.cargo/bin" "$PATH" "$HOME/.local/bin")
-export PATH
+export PATH="$HOME/.cargo/bin:$PATH:$HOME/.local/bin"
