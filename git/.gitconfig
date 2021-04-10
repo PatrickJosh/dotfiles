@@ -3,3 +3,7 @@
 	email = git@joshuanoeske.de
 [core]
 	editor = vim
+[init]
+	defaultBranch = main
+[pull]
+	ff = only
