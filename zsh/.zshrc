@@ -133,6 +133,12 @@ FZF_ALT_C_COMMAND="fd --xdev --type d --hidden --exclude .git"
 
 eval $(thefuck --alias)
 
+# Diff
+
+diffc () {
+    diff --color=always -u $1 $2 | less -R
+}
+
 ### End
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
