@@ -131,7 +131,7 @@ FZF_ALT_C_COMMAND="fd --xdev --type d --hidden --exclude .git"
 ### Other configs
 # thefuck
 
-eval $(thefuck --alias)
+# eval $(thefuck --alias)
 
 # Diff
 
