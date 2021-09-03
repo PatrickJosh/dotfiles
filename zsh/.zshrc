@@ -80,6 +80,7 @@ plugins=(git
 	thefuck
 	zsh-autosuggestions
 	# zsh-autocomplete
+	dirhistory
 	autoupdate
 )
 
