@@ -86,6 +86,8 @@ plugins=(git
 
 source $ZSH/oh-my-zsh.sh
 
+setopt correct
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
