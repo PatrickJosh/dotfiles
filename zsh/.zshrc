@@ -145,6 +145,12 @@ diffc () {
     diff --color=always -u $1 $2 | less -R
 }
 
+# Add alias for scrcpy so that Wayland is used
+alias scrcpy='SDL_VIDEODRIVER=wayland scrcpy'
+
+# Add alias to remove SSH-Key fast
+alias skr='ssh-add -d ~/.ssh/id_ed25519_sk'
+
 ### End
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
