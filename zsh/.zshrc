@@ -131,8 +131,8 @@ ZSH_AUTOSUGGEST_STRATEGY="match_prev_cmd"
 bindkey '^ ' autosuggest-accept
 
 # fzf
-FZF_CTRL_T_COMMAND="fd --xdev --type f --hidden --exclude .git"
-FZF_ALT_C_COMMAND="fd --xdev --type d --hidden --exclude .git"
+FZF_CTRL_T_COMMAND="fd --xdev --type f -uu --exclude .git"
+FZF_ALT_C_COMMAND="fd --xdev --type d -uu --exclude .git"
 
 ### Other configs
 # thefuck
